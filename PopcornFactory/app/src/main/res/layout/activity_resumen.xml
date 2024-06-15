@@ -3,15 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/almostblack"
+    android:background="@color/black"
     >
-    <ImageView
-        android:id="@+id/image_header"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_gravity="center"
-        android:scaleType="centerCrop"
-        android:src="@drawable/friends"/>
 
 
     <LinearLayout
@@ -21,7 +14,7 @@
         >
 
         <TextView
-            android:id="@+id/title_movie"
+            android:id="@+id/title_movie_resume"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/mustard"
@@ -45,33 +38,45 @@
             />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/descripcion"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:fontFamily="sans-serif-condensed"
-        android:textSize="14sp"
-        android:padding="30dp"/>
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/numAsientoSelect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:padding="30dp"
+            android:layout_weight="2"
+            android:text="asdafgasfa"
+            />
+        <TextView
+            android:id="@+id/nombreCliente"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="14sp"
+            android:padding="30dp"
+            android:layout_weight="2"
+            android:text="asdafgasfa"
+
+            />
+
+    </LinearLayout>
+
 
     <Button
-        android:id="@+id/buyticket"
+        android:id="@+id/regresarInicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buy my ticket!"
+        android:text="Regresar al inicio"
         android:padding="10dp"
         android:layout_gravity="center"
         android:background="@drawable/round_button"
         android:textColor="@color/black"
         android:layout_marginTop="10dp"
-        />
-    <TextView
-        android:id="@+id/seatsLeft"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/grisclaro"
-        android:textStyle="italic"
-        android:layout_marginTop="7dp"
-        android:textAlignment="center"
         />
 </LinearLayout>

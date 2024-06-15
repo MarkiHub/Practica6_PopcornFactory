@@ -6,4 +6,6 @@
     <string name="movies">Movies</string>
     <string name="series">Series</string>
     <string name="title_activity_movie_detail">MovieDetail</string>
+    <string name="title_activity_seat_selection">SeatSelection</string>
+    <string name="title_activity_resume">resumeActivity</string>
 </resources>

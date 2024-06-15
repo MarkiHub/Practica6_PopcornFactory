@@ -16,6 +16,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import mx.itson.edu.popcornfactory.ui.theme.PopcornFactoryTheme
 
 class MainActivity : ComponentActivity() {
+    object staticCliente{
+        @JvmStatic
+        val nombre = "Marcos"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
